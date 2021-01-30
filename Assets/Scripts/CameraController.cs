@@ -20,7 +20,12 @@ public class CameraController : MonoBehaviour {
             playerPosition = new Vector3(playerPosition.x + offset, playerPosition.y, playerPosition.z);
         } else {
             playerPosition = new Vector3(playerPosition.x - offset, playerPosition.y, playerPosition.z);
-        }
+        }/*
+        if (player.transform.localScale.y > 0f) {
+            playerPosition = new Vector3(playerPosition.x, playerPosition.y + offset, playerPosition.z);
+        } else {
+            playerPosition = new Vector3(playerPosition.x, playerPosition.y - offset, playerPosition.z);
+        }*/
         transform.position = Vector3.Lerp(transform.position, playerPosition, offsetSmoothing * Time.deltaTime);
     }
 }
