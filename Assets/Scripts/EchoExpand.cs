@@ -15,7 +15,7 @@ public class EchoExpand : MonoBehaviour
 
     void FixedUpdate() {
         t += Time.deltaTime / duration;
-        transform.localScale = Vector3.Lerp(initialScale, initialScale * 30, t);
+        transform.localScale = Vector3.Lerp(initialScale, initialScale * 10, t);
         if (t >= 1) {
             Destroy(gameObject, 0.1f);
         }

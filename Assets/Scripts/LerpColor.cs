@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class LerpColor : MonoBehaviour
 {
-
     float t;
     private bool triggered;
-    public float duration = 5f;
+    public float duration = 2f;
 
     void Start()
     {
@@ -31,6 +30,8 @@ public class LerpColor : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        triggered = true;
+        if (other.tag != "Player") {
+            triggered = true;
+        }
     }
 }
