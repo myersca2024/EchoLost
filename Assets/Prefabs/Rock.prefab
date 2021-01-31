@@ -96,8 +96,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b2bb9de2c3b1ce44a0ef584e704691a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 0.7
   echo: {fileID: 2398985020076671143, guid: d534fe63d99c7ff448ae375247c7f6cd, type: 3}
+  rockSFX: {fileID: 8300000, guid: 9c13b322225139e469f5479e38842bc9, type: 3}
 --- !u!50 &6954007400305494004
 Rigidbody2D:
   serializedVersion: 4
