@@ -143,6 +143,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   door3: {fileID: 0}
   collision: 0
+  leverSFX: {fileID: 8300000, guid: 4c172a8e6feb3dd46a50367454b81942, type: 3}
 --- !u!50 &7106538150779359827
 Rigidbody2D:
   serializedVersion: 4

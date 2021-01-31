@@ -20,10 +20,10 @@ public class ExitLevel : MonoBehaviour
             {
                 SceneManager.LoadScene("Level3");
             }
-            //else if (string.Equals(current, "Level3"))
-            //{
-            //   
-            //}
+            else if (string.Equals(current, "Level3"))
+            {
+                SceneManager.LoadScene("Game Over");
+            }
         }
     }
 

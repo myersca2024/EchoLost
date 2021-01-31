@@ -1185,7 +1185,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Tutorials/Source Code:\n\thttps://www.youtube.com/playlist?list=PLGmYIROty-\n\t5YhzMWqgAIXlPIRU2_tcz0l\r\t\n\t\n\thttps://www.sitepoint.com/adding-pause-main-menu-\n\tand-game-over-screens-in-unity/\r\n\nSound
-    Effects:\n\thttps://www.storyblocks.com/audio/stock/footsteps\n\t-tennis-shoes-run-seufna3lwrk0wxx8jd.html\n\n\thttps://www.storyblocks.com/audio/stock/running\n\t-gravel-panned-bxnssohidhk0wxoq6w.html\n\n\thttps://www.zapsplat.com/music/dungeon-ambience-\n\tcold-dark-and-eerie-droning-tone-could-also-be-cave/\n\n\thttps://www.zapsplat.com/page/3/?s=cave+ambience\n\t&post_type=music&sound-effect-category-id\n\n\thttps://www.zapsplat.com/music/thick-rope-swoosh-\n\tin-air-single-whip-2/\n\n\thttps://www.zapsplat.com/music/ambience\n\t-ambiance-ambient-forest-nature-florida-woods\n\t-wild-grass-outdoor-trees-day-dusk-birds\n\t-crickets-bee-buzzing/\n\n\thttps://www.zapsplat.com/music/action-closing-\n\ttone/\n\n\thttps://www.zapsplat.com/music/button-tick/"
+    Effects:\n\thttps://www.zapsplat.com/music/dungeon-ambience-\n\tcold-dark-and-eerie-droning-tone-could-also-be-cave/\n\n\thttps://www.zapsplat.com/music/action-closing-\n\ttone/\n\n\thttps://www.zapsplat.com/music/button-tick/\n\n\thttps://www.zapsplat.com/music/car-wiper-lever-stick-\n\tswitch-flick-toyota-rav4-1/\n\nArt:\n\thttps://assetstore.unity.com/packages/2d/environments\n\t/pixel-fantasy-caves-152375"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d3c2f40750ef4154e8d8c39c90d61f6b, type: 2}
   m_sharedMaterial: {fileID: -4512029912564829655, guid: d3c2f40750ef4154e8d8c39c90d61f6b,
@@ -1867,7 +1867,7 @@ RectTransform:
   m_GameObject: {fileID: 1933763442}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.84996, z: 1}
   m_Children: []
   m_Father: {fileID: 445692584}
   m_RootOrder: 1
@@ -1926,8 +1926,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

@@ -8,6 +8,7 @@ public class Lever : MonoBehaviour
     public GameObject door2;
     public GameObject door3;
     public bool collision;
+    public AudioClip leverSFX;
 
     // Start is called before the first frame update
     void Start()
@@ -21,14 +22,17 @@ public class Lever : MonoBehaviour
         if (collision && Input.GetKeyDown(KeyCode.E)) {
             if (door1 != null)
             {
+                AudioSource.PlayClipAtPoint(leverSFX, transform.position);
                 door1.SetActive(!door1.activeSelf);
             }
             if (door2 != null)
             {
+                AudioSource.PlayClipAtPoint(leverSFX, transform.position);
                 door2.SetActive(!door2.activeSelf);
             }
             if (door3 != null)
             {
+                AudioSource.PlayClipAtPoint(leverSFX, transform.position);
                 door3.SetActive(!door3.activeSelf);
             }
         }
