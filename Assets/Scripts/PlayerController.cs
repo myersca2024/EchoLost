@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     private bool isTouchingGround;
     private Animator playerAnimation;
     public Vector3 respawnPoint;
-    private bool isJumping = false;
+    private bool hasLanded = true;
     //public LevelManager gameLevelManager;
 
     // Start is called before the first frame update
@@ -28,6 +28,13 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update() {
         isTouchingGround = Physics2D.OverlapCircle(groundCheckPoint.position, groundCheckRadius, groundLayer);
+
+        if (isTouchingGround && !hasLanded && rigidBody.velocity.y < 0)
+        {
+            hasLanded = true;
+            playerAnimation.SetBool("isFalling", false);
+            playerAnimation.SetBool("isJumping", false);
+        }
 
         movement = Input.GetAxis("Horizontal");
         if (movement > 0f) {
@@ -45,19 +52,23 @@ public class PlayerController : MonoBehaviour
             playerAnimation.SetFloat("speed", Mathf.Abs(movement));
         }
 
-        if (isTouchingGround && isJumping)
+        if (!isTouchingGround && hasLanded)
         {
-            isJumping = false;
-            playerAnimation.SetBool("isJumping", false);
+            playerAnimation.SetBool("isFalling", true);
+            hasLanded = false;
         }
 
-        if (Input.GetButtonDown("Jump") && isTouchingGround && !isJumping)
+        if (Input.GetButtonDown("Jump") && isTouchingGround)
         {
             playerAnimation.SetBool("isJumping", true);
-            isTouchingGround = false;
-            rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpSpeed);
-            isJumping = true;
+            Invoke("OnJump", 0.1f);
         }
+    }
+
+    void OnJump()
+    {
+        rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpSpeed);
+        hasLanded = false;
     }
 
     void OnTriggerEnter2D(Collider2D other) {
