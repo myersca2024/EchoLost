@@ -14,7 +14,7 @@ public class ShootObject : MonoBehaviour {
         t = 0;
     }
 
-    void FixedUpdate() {
+    void Update() {
         if (onCoolDown) {
             t += Time.deltaTime;
             if (t > cooldown) {
@@ -29,7 +29,10 @@ public class ShootObject : MonoBehaviour {
             mouseDir.z = 0.0f;
             mouseDir = mouseDir.normalized;
 
-            GameObject instantBullet = Instantiate(bullet, bulletSource.transform.position, this.transform.rotation);
+            var bulletSourcePos = bulletSource.transform.position;
+            bulletSourcePos.z = 0.0f;
+
+            GameObject instantBullet = Instantiate(bullet, bulletSourcePos, this.transform.rotation);
             Rigidbody2D rb = instantBullet.GetComponent<Rigidbody2D>();
             rb.AddForce(mouseDir * bulletForce, ForceMode2D.Impulse);
 

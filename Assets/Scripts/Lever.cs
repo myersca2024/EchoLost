@@ -19,9 +19,18 @@ public class Lever : MonoBehaviour
     void Update()
     {
         if (collision && Input.GetKeyDown(KeyCode.E)) {
-            door1.SetActive(!door1.activeSelf);
-            door2.SetActive(!door2.activeSelf);
-            door3.SetActive(!door3.activeSelf);
+            if (door1 != null)
+            {
+                door1.SetActive(!door1.activeSelf);
+            }
+            if (door2 != null)
+            {
+                door2.SetActive(!door2.activeSelf);
+            }
+            if (door3 != null)
+            {
+                door3.SetActive(!door3.activeSelf);
+            }
         }
     }
 
