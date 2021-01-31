@@ -2321,6 +2321,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 455831288}
+    - target: {fileID: 7448952474470972849, guid: 722be8c43e1535f45a1be66c6f05e0ae,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7448952474499923383, guid: 722be8c43e1535f45a1be66c6f05e0ae,
         type: 3}
       propertyPath: m_IsActive
@@ -2515,6 +2520,33 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7448952475842592105, guid: 722be8c43e1535f45a1be66c6f05e0ae,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 147
+      objectReference: {fileID: 0}
+    - target: {fileID: 7448952475842592106, guid: 722be8c43e1535f45a1be66c6f05e0ae,
+        type: 3}
+      propertyPath: m_text
+      value: 'Koko is lost...
+
+        Help them get back home!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7448952475842592106, guid: 722be8c43e1535f45a1be66c6f05e0ae,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 7448952475842592106, guid: 722be8c43e1535f45a1be66c6f05e0ae,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 7448952475842592106, guid: 722be8c43e1535f45a1be66c6f05e0ae,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 722be8c43e1535f45a1be66c6f05e0ae, type: 3}
