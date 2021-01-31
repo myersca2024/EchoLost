@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.LWRP;
 
 public class LerpColor : MonoBehaviour
 {
@@ -21,7 +22,12 @@ public class LerpColor : MonoBehaviour
         {
             Debug.Log("Triggered");
             t += Time.deltaTime / duration;
-            gameObject.GetComponent<SpriteRenderer>().color = Color.Lerp(echoColor, Color.black, t);
+            Color lerpedColor = Color.Lerp(echoColor, Color.black, t);
+            gameObject.GetComponent<SpriteRenderer>().color = lerpedColor;
+            if (GetComponent<UnityEngine.Experimental.Rendering.Universal.Light2D>() != null)
+            {
+                GetComponent<UnityEngine.Experimental.Rendering.Universal.Light2D>().color = lerpedColor;
+            }
             if (t >= 1)
             {
                 triggered = false;
