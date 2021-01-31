@@ -18,6 +18,7 @@ public class LerpColor : MonoBehaviour
     {
         if (triggered)
         {
+            Debug.Log("Triggered");
             t += Time.deltaTime / duration;
             gameObject.GetComponent<SpriteRenderer>().color = Color.Lerp(Color.white, Color.black, t);
             if (t >= 1)
@@ -30,8 +31,9 @@ public class LerpColor : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag != "Player") {
+        if (other.tag == "Rock" || other.tag == "Echo") {
             triggered = true;
+            t = 0;
         }
     }
 }
