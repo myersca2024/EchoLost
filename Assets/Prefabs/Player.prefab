@@ -173,7 +173,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 1.2394941
+  m_Mass: 1.2533501
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -270,11 +270,12 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: 0.006676674, y: -1.273025}
-      - {x: -0.5203315, y: -1.2085726}
+      - {x: -0.520332, y: -1.2493595}
+      - {x: -0.5203315, y: -1.2493593}
       - {x: -0.5234688, y: 1.2333999}
       - {x: 0.0114501715, y: 1.2275326}
       - {x: 0.50586724, y: 1.2275327}
-      - {x: 0.5, y: -1.2027054}
+      - {x: 0.50582695, y: -1.243492}
 --- !u!95 &8881373041580772691
 Animator:
   serializedVersion: 3
