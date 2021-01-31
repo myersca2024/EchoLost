@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Lever : MonoBehaviour
 {
-    public GameObject door;
+    public GameObject door1;
+    public GameObject door2;
+    public GameObject door3;
     public bool collision;
 
     // Start is called before the first frame update
@@ -17,7 +19,9 @@ public class Lever : MonoBehaviour
     void Update()
     {
         if (collision && Input.GetKeyDown(KeyCode.E)) {
-            door.SetActive(!door.activeSelf);
+            door1.SetActive(!door1.activeSelf);
+            door2.SetActive(!door2.activeSelf);
+            door3.SetActive(!door3.activeSelf);
         }
     }
 

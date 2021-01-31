@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5209836913363618795}
   - component: {fileID: 5209836913363618708}
   m_Layer: 8
-  m_Name: Lever 1
+  m_Name: Lever
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5decc68625a1aa45ab1564cd4ff5ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 5
+  duration: 2
 --- !u!60 &5209836913363618795
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -137,5 +137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cc75c1e28084304eb4d320cd60afb7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door: {fileID: 0}
+  door1: {fileID: 0}
+  door2: {fileID: 0}
+  door3: {fileID: 0}
   collision: 0
