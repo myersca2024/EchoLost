@@ -4,14 +4,12 @@ using UnityEngine;
 
 public class Rock : MonoBehaviour
 {
-    //private float t;
     private Vector3 initialScale;
-    public float duration = .7f;
     public GameObject echo;
+    public AudioClip rockSFX;
 
     private void Start() {
         initialScale = transform.localScale;
-        //t = 0;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -19,6 +17,7 @@ public class Rock : MonoBehaviour
         if (other.gameObject.tag == "Platform")
         {
             Instantiate(echo, this.transform.position, this.transform.rotation);
+            AudioSource.PlayClipAtPoint(rockSFX, transform.position);
             Destroy(gameObject);
         }
     }

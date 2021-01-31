@@ -7,6 +7,7 @@ public class LerpColor : MonoBehaviour
     float t;
     private bool triggered;
     public float duration = 2f;
+    public Color echoColor = Color.white;
 
     void Start()
     {
@@ -20,7 +21,7 @@ public class LerpColor : MonoBehaviour
         {
             Debug.Log("Triggered");
             t += Time.deltaTime / duration;
-            gameObject.GetComponent<SpriteRenderer>().color = Color.Lerp(Color.white, Color.black, t);
+            gameObject.GetComponent<SpriteRenderer>().color = Color.Lerp(echoColor, Color.black, t);
             if (t >= 1)
             {
                 triggered = false;
