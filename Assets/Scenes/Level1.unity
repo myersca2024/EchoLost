@@ -306,6 +306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &13761577
 Rigidbody2D:
   serializedVersion: 4
@@ -594,6 +595,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &40147517
 Rigidbody2D:
   serializedVersion: 4
@@ -726,6 +728,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &40241305
 Rigidbody2D:
   serializedVersion: 4
@@ -1021,6 +1024,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &61113213
 Rigidbody2D:
   serializedVersion: 4
@@ -1250,6 +1254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &91279155
 Rigidbody2D:
   serializedVersion: 4
@@ -1397,6 +1402,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &104344554
 Rigidbody2D:
   serializedVersion: 4
@@ -1544,6 +1550,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &106202227
 Rigidbody2D:
   serializedVersion: 4
@@ -1841,6 +1848,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &136703604
 Rigidbody2D:
   serializedVersion: 4
@@ -1991,6 +1999,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &144550405
 Rigidbody2D:
   serializedVersion: 4
@@ -2223,6 +2232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &190278362
 Rigidbody2D:
   serializedVersion: 4
@@ -2373,6 +2383,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &196887623
 Rigidbody2D:
   serializedVersion: 4
@@ -2520,6 +2531,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &199966516
 Rigidbody2D:
   serializedVersion: 4
@@ -2667,6 +2679,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &211680297
 Rigidbody2D:
   serializedVersion: 4
@@ -3031,6 +3044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &262126204
 Rigidbody2D:
   serializedVersion: 4
@@ -3250,6 +3264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &265557027
 Rigidbody2D:
   serializedVersion: 4
@@ -3400,6 +3415,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &274886647
 Rigidbody2D:
   serializedVersion: 4
@@ -3553,6 +3569,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &281007445
 Rigidbody2D:
   serializedVersion: 4
@@ -3700,6 +3717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &288603012
 Rigidbody2D:
   serializedVersion: 4
@@ -4172,6 +4190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &341479112
 Rigidbody2D:
   serializedVersion: 4
@@ -4325,6 +4344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &345693969
 Rigidbody2D:
   serializedVersion: 4
@@ -4610,6 +4630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &375378681
 Rigidbody2D:
   serializedVersion: 4
@@ -4915,6 +4936,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &386016948
 Rigidbody2D:
   serializedVersion: 4
@@ -5059,6 +5081,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &400840534
 Rigidbody2D:
   serializedVersion: 4
@@ -5329,6 +5352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &411786540
 Rigidbody2D:
   serializedVersion: 4
@@ -5558,6 +5582,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &434728436
 Rigidbody2D:
   serializedVersion: 4
@@ -5705,6 +5730,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &460025193
 Rigidbody2D:
   serializedVersion: 4
@@ -5849,6 +5875,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &471601097
 Rigidbody2D:
   serializedVersion: 4
@@ -6029,6 +6056,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &474387722
 Rigidbody2D:
   serializedVersion: 4
@@ -6395,6 +6423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &531657284
 Rigidbody2D:
   serializedVersion: 4
@@ -6621,6 +6650,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &547789509
 Rigidbody2D:
   serializedVersion: 4
@@ -6932,6 +6962,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &588417646
 Rigidbody2D:
   serializedVersion: 4
@@ -7076,6 +7107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &588936070
 Rigidbody2D:
   serializedVersion: 4
@@ -7349,6 +7381,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4310711947675849516, guid: b21e823740528ad4297f478c5e52e5e3,
+        type: 3}
+      propertyPath: echoColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4310711947675849516, guid: b21e823740528ad4297f478c5e52e5e3,
+        type: 3}
+      propertyPath: echoColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4310711947675849516, guid: b21e823740528ad4297f478c5e52e5e3,
+        type: 3}
+      propertyPath: echoColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4310711947675849519, guid: b21e823740528ad4297f478c5e52e5e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -7459,6 +7506,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &691406032
 Rigidbody2D:
   serializedVersion: 4
@@ -7754,6 +7802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &726537673
 Rigidbody2D:
   serializedVersion: 4
@@ -7901,6 +7950,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &744266186
 Rigidbody2D:
   serializedVersion: 4
@@ -8008,12 +8058,12 @@ PrefabInstance:
     - target: {fileID: 665487437482195986, guid: d52d900652d81a84f9569781b3301391,
         type: 3}
       propertyPath: m_SortingLayer
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 665487437482195986, guid: d52d900652d81a84f9569781b3301391,
         type: 3}
       propertyPath: m_SortingLayerID
-      value: 0
+      value: -687652523
       objectReference: {fileID: 0}
     - target: {fileID: 665487437482195987, guid: d52d900652d81a84f9569781b3301391,
         type: 3}
@@ -8147,6 +8197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &759715368
 Rigidbody2D:
   serializedVersion: 4
@@ -8369,6 +8420,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &802996410
 Rigidbody2D:
   serializedVersion: 4
@@ -8516,6 +8568,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &804288162
 Rigidbody2D:
   serializedVersion: 4
@@ -8762,6 +8815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &859014529
 Rigidbody2D:
   serializedVersion: 4
@@ -9126,6 +9180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &887495099
 Rigidbody2D:
   serializedVersion: 4
@@ -9595,6 +9650,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &968163494
 Rigidbody2D:
   serializedVersion: 4
@@ -9821,6 +9877,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &979102264
 Rigidbody2D:
   serializedVersion: 4
@@ -9968,6 +10025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &982513930
 Rigidbody2D:
   serializedVersion: 4
@@ -10112,6 +10170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1000183610
 Rigidbody2D:
   serializedVersion: 4
@@ -10338,6 +10397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1002043888
 Rigidbody2D:
   serializedVersion: 4
@@ -10636,6 +10696,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1008522008
 Rigidbody2D:
   serializedVersion: 4
@@ -10783,6 +10844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1025252726
 Rigidbody2D:
   serializedVersion: 4
@@ -10915,6 +10977,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1032914714
 Rigidbody2D:
   serializedVersion: 4
@@ -11131,6 +11194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1045675735
 Rigidbody2D:
   serializedVersion: 4
@@ -11290,6 +11354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1070531741
 Rigidbody2D:
   serializedVersion: 4
@@ -11437,6 +11502,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1082399208
 Rigidbody2D:
   serializedVersion: 4
@@ -11584,6 +11650,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1083493066
 Rigidbody2D:
   serializedVersion: 4
@@ -11810,6 +11877,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1086609859
 Rigidbody2D:
   serializedVersion: 4
@@ -12051,6 +12119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1096928748
 Rigidbody2D:
   serializedVersion: 4
@@ -12195,6 +12264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1101121257
 Rigidbody2D:
   serializedVersion: 4
@@ -12436,6 +12506,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1151725158
 Rigidbody2D:
   serializedVersion: 4
@@ -12583,6 +12654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1161338977
 Rigidbody2D:
   serializedVersion: 4
@@ -12733,6 +12805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1173967622
 Rigidbody2D:
   serializedVersion: 4
@@ -12883,6 +12956,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1182451274
 Rigidbody2D:
   serializedVersion: 4
@@ -13033,6 +13107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1195629691
 Rigidbody2D:
   serializedVersion: 4
@@ -13180,6 +13255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1197190556
 Rigidbody2D:
   serializedVersion: 4
@@ -13415,6 +13491,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1231620075
 Rigidbody2D:
   serializedVersion: 4
@@ -13722,6 +13799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1272265474
 Rigidbody2D:
   serializedVersion: 4
@@ -13872,6 +13950,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1277738408
 Rigidbody2D:
   serializedVersion: 4
@@ -14007,6 +14086,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1287097231
 Rigidbody2D:
   serializedVersion: 4
@@ -14236,6 +14316,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1299957572
 Rigidbody2D:
   serializedVersion: 4
@@ -14470,6 +14551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1337336586
 Rigidbody2D:
   serializedVersion: 4
@@ -14683,6 +14765,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1354404458
 Rigidbody2D:
   serializedVersion: 4
@@ -14882,6 +14965,21 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 4310711947675849516, guid: b21e823740528ad4297f478c5e52e5e3,
+        type: 3}
+      propertyPath: echoColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4310711947675849516, guid: b21e823740528ad4297f478c5e52e5e3,
+        type: 3}
+      propertyPath: echoColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4310711947675849516, guid: b21e823740528ad4297f478c5e52e5e3,
+        type: 3}
+      propertyPath: echoColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4310711947675849519, guid: b21e823740528ad4297f478c5e52e5e3,
         type: 3}
       propertyPath: m_RootOrder
@@ -15075,6 +15173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1379048785
 Rigidbody2D:
   serializedVersion: 4
@@ -15373,6 +15472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1427256354
 Rigidbody2D:
   serializedVersion: 4
@@ -15809,6 +15909,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1526262430
 Rigidbody2D:
   serializedVersion: 4
@@ -15953,6 +16054,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1529284532
 Rigidbody2D:
   serializedVersion: 4
@@ -16626,6 +16728,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1588494321
 Rigidbody2D:
   serializedVersion: 4
@@ -16770,6 +16873,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1591605828
 Rigidbody2D:
   serializedVersion: 4
@@ -16900,6 +17004,21 @@ PrefabInstance:
       propertyPath: door3
       value: 
       objectReference: {fileID: 1636074237}
+    - target: {fileID: 5209836913363618792, guid: 8884fb89d4e015d47a9c41c42f90c486,
+        type: 3}
+      propertyPath: echoColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5209836913363618792, guid: 8884fb89d4e015d47a9c41c42f90c486,
+        type: 3}
+      propertyPath: echoColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5209836913363618792, guid: 8884fb89d4e015d47a9c41c42f90c486,
+        type: 3}
+      propertyPath: echoColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5209836913363618794, guid: 8884fb89d4e015d47a9c41c42f90c486,
         type: 3}
       propertyPath: m_RootOrder
@@ -17207,6 +17326,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1681905282
 Rigidbody2D:
   serializedVersion: 4
@@ -17354,6 +17474,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1707097525
 Rigidbody2D:
   serializedVersion: 4
@@ -17501,6 +17622,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1718535796
 Rigidbody2D:
   serializedVersion: 4
@@ -17801,6 +17923,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1769992940
 Rigidbody2D:
   serializedVersion: 4
@@ -18115,6 +18238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1846618173
 Rigidbody2D:
   serializedVersion: 4
@@ -18519,6 +18643,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1938237829
 Rigidbody2D:
   serializedVersion: 4
@@ -18666,6 +18791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1954883316
 Rigidbody2D:
   serializedVersion: 4
@@ -18810,6 +18936,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1968714919
 Rigidbody2D:
   serializedVersion: 4
@@ -18957,6 +19084,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1970787477
 Rigidbody2D:
   serializedVersion: 4
@@ -19104,6 +19232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1979248420
 Rigidbody2D:
   serializedVersion: 4
@@ -19248,6 +19377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1980180804
 Rigidbody2D:
   serializedVersion: 4
@@ -19357,6 +19487,7 @@ GameObject:
   - component: {fileID: 1998652349}
   - component: {fileID: 1998652348}
   - component: {fileID: 1998652351}
+  - component: {fileID: 1998652352}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -19444,6 +19575,102 @@ MonoBehaviour:
   player: {fileID: 8881373041580772690}
   offset: 0.2
   offsetSmoothing: 5
+--- !u!82 &1998652352
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998652347}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: dc40b1b9ebef5034aa4c1e3d06d76b8d, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.16
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &2012167422 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6031571821563004468, guid: 4ec09ae504d941543870f8abee91e49e,
@@ -19730,6 +19957,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &2045115552
 Rigidbody2D:
   serializedVersion: 4
@@ -20064,6 +20292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &2105365243
 Rigidbody2D:
   serializedVersion: 4
@@ -20266,6 +20495,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &2113899186
 Rigidbody2D:
   serializedVersion: 4
@@ -20413,6 +20643,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 5
+  echoColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &2119436736
 Rigidbody2D:
   serializedVersion: 4
@@ -20721,6 +20952,21 @@ PrefabInstance:
       propertyPath: door3
       value: 
       objectReference: {fileID: 2109502676}
+    - target: {fileID: 5209836913363618792, guid: 8884fb89d4e015d47a9c41c42f90c486,
+        type: 3}
+      propertyPath: echoColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5209836913363618792, guid: 8884fb89d4e015d47a9c41c42f90c486,
+        type: 3}
+      propertyPath: echoColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5209836913363618792, guid: 8884fb89d4e015d47a9c41c42f90c486,
+        type: 3}
+      propertyPath: echoColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5209836913363618794, guid: 8884fb89d4e015d47a9c41c42f90c486,
         type: 3}
       propertyPath: m_RootOrder
@@ -20878,6 +21124,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4310711947675849516, guid: b21e823740528ad4297f478c5e52e5e3,
+        type: 3}
+      propertyPath: echoColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4310711947675849516, guid: b21e823740528ad4297f478c5e52e5e3,
+        type: 3}
+      propertyPath: echoColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4310711947675849516, guid: b21e823740528ad4297f478c5e52e5e3,
+        type: 3}
+      propertyPath: echoColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4310711947675849519, guid: b21e823740528ad4297f478c5e52e5e3,
         type: 3}
