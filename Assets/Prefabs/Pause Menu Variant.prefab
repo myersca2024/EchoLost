@@ -75,6 +75,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SetActive
       objectReference: {fileID: 0}
+    - target: {fileID: 7448952474004912594, guid: 722be8c43e1535f45a1be66c6f05e0ae,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -22
+      objectReference: {fileID: 0}
     - target: {fileID: 7448952474004912595, guid: 722be8c43e1535f45a1be66c6f05e0ae,
         type: 3}
       propertyPath: m_text
@@ -85,6 +90,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: ShowOnPause
+      objectReference: {fileID: 0}
+    - target: {fileID: 7448952474018365278, guid: 722be8c43e1535f45a1be66c6f05e0ae,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -111
       objectReference: {fileID: 0}
     - target: {fileID: 7448952474018365279, guid: 722be8c43e1535f45a1be66c6f05e0ae,
         type: 3}
@@ -276,10 +286,45 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: pauseControl
       objectReference: {fileID: 0}
+    - target: {fileID: 7448952475501538613, guid: 722be8c43e1535f45a1be66c6f05e0ae,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -158
+      objectReference: {fileID: 0}
+    - target: {fileID: 7448952475501538614, guid: 722be8c43e1535f45a1be66c6f05e0ae,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7448952475501538614, guid: 722be8c43e1535f45a1be66c6f05e0ae,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7448952475501538614, guid: 722be8c43e1535f45a1be66c6f05e0ae,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7448952475501538614, guid: 722be8c43e1535f45a1be66c6f05e0ae,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 7448952475501538614, guid: 722be8c43e1535f45a1be66c6f05e0ae,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7448952475738149017, guid: 722be8c43e1535f45a1be66c6f05e0ae,
         type: 3}
       propertyPath: m_TagString
       value: ShowOnPause
+      objectReference: {fileID: 0}
+    - target: {fileID: 8044787245360985010, guid: 722be8c43e1535f45a1be66c6f05e0ae,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 722be8c43e1535f45a1be66c6f05e0ae, type: 3}
