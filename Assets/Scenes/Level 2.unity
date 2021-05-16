@@ -2836,7 +2836,7 @@ PrefabInstance:
     - target: {fileID: 5049469330282286460, guid: a68fdbd8ff3e5424ab10b2d3e0359fce,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5049469330708096688, guid: a68fdbd8ff3e5424ab10b2d3e0359fce,
         type: 3}
@@ -2955,6 +2955,11 @@ PrefabInstance:
         type: 3}
       propertyPath: current
       value: Level3
+      objectReference: {fileID: 0}
+    - target: {fileID: 927948231695117944, guid: e85e15b97f65bf840b693280aa6b60e6,
+        type: 3}
+      propertyPath: nextLevel
+      value: Level 3
       objectReference: {fileID: 0}
     - target: {fileID: 3977247663328816258, guid: e85e15b97f65bf840b693280aa6b60e6,
         type: 3}
@@ -6780,6 +6785,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 665487437482195986, guid: d52d900652d81a84f9569781b3301391,
         type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 665487437482195986, guid: d52d900652d81a84f9569781b3301391,
+        type: 3}
       propertyPath: m_SortingLayer
       value: -1
       objectReference: {fileID: 0}
@@ -6831,7 +6841,7 @@ PrefabInstance:
     - target: {fileID: 665487437482195997, guid: d52d900652d81a84f9569781b3301391,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.29
+      value: 11.27
       objectReference: {fileID: 0}
     - target: {fileID: 665487437482195997, guid: d52d900652d81a84f9569781b3301391,
         type: 3}
@@ -16204,6 +16214,7 @@ GameObject:
   - component: {fileID: 1998652348}
   - component: {fileID: 1998652351}
   - component: {fileID: 1998652352}
+  - component: {fileID: 1998652353}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -16387,6 +16398,37 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1998652353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998652347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1001 &2010581490
 PrefabInstance:
   m_ObjectHideFlags: 0

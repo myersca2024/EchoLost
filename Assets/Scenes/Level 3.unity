@@ -8891,6 +8891,11 @@ PrefabInstance:
       propertyPath: current
       value: Level1
       objectReference: {fileID: 0}
+    - target: {fileID: 927948231695117944, guid: e85e15b97f65bf840b693280aa6b60e6,
+        type: 3}
+      propertyPath: nextLevel
+      value: Game Over
+      objectReference: {fileID: 0}
     - target: {fileID: 3977247663328816258, guid: e85e15b97f65bf840b693280aa6b60e6,
         type: 3}
       propertyPath: m_Name
