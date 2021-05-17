@@ -18960,6 +18960,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8486737029084958994, guid: 99f6854dbf3e7614f8619b3b2c4f015e,
+        type: 3}
+      propertyPath: groundCheckRadius
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 8486737029084958995, guid: 99f6854dbf3e7614f8619b3b2c4f015e,
         type: 3}
       propertyPath: cooldown
